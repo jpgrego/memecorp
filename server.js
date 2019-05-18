@@ -11,10 +11,10 @@ const HOST = '0.0.0.0';
 const app = express();
 app.use(express.static(process.env.PWD + '/img'));
 app.get('/', (req, res) => {
-    // res.send('<h1>João Grego</h1>\n' + 
-    //          '<img src="https://i.redd.it/7ixggbfxtsmy.png">');
     res.send('<h1>João Grego</h1>\n' + 
-             '<img src="/security.png" />');
+             '<img src="/meme.png">');
+    // res.send('<h1>João Grego</h1>\n' + 
+    //          '<img src="/security.png" />');
 });
 
 app.listen(PORT, HOST);
