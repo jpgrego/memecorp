@@ -1,0 +1,13 @@
+{
+    "name": "memecorp",
+    "version": "1.0.0",
+    "description": "memes",
+    "author": "João Grego <jpedro@grego.pt>",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "express": "^4.17.0"
+    }
+}
