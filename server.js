@@ -17,7 +17,7 @@ app.get('/', (req, res) => {
              '<meta charset="UTF-8">\n' +
              '<title>Meme page</title>\n' + 
              '</head>\n' +
-             '<h1>João Grego</h1>\n' + 
+             '<h1>João Grego test</h1>\n' + 
              '<img src="/computer.jpg" alt="" />\n' +
              '</html>\n');
 });
